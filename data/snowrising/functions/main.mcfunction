@@ -30,7 +30,7 @@ execute unless score grace_period global matches 400.. run scoreboard players se
 execute if score legacy global matches 1.. if score rise_height_limit global matches 257.. run function snowrising:setup/range/rise_height_limit
 
 # apply slowness near the riser
-execute if score period internal matches 2 if score slow_nearby_players global matches 1.. as @a[gamemode=!spectator] run function snowrising:system/extras/nearby_players
+execute if score period internal matches 2 if score slow_nearby_players global matches 1.. as @a[gamemode=!spectator] at @s run function snowrising:system/extras/nearby_players
 
 # riser main
 execute if score period internal matches 2 as @e[tag=riser,limit=1] at @s run function snowrising:system/riser/main
