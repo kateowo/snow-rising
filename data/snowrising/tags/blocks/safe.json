@@ -10,6 +10,9 @@
         "minecraft:tall_seagrass",
         "#minecraft:coral_plants",
         "#minecraft:wall_corals",
-        "minecraft:sea_pickle"
+        "minecraft:sea_pickle",
+		"#minecraft:bamboo_plantable_on",
+		"#minecraft:animals_spawnable_on",
+		"minecraft:sugar_cane"
 	]
 }
