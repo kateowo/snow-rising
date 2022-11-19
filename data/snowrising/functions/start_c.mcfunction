@@ -7,8 +7,8 @@ tag @a remove win
 effect clear @a
 
 # announce
-title @a title ["",{"text":"LAVA RISING","color":"red","bold":true}]
-title @a subtitle "Gather resources before the lava begins to rise."
+title @a title ["",{"text":"SNOW RISING","color":"#9FFFFF","bold":true}]
+title @a subtitle "Gather resources before the snow begins to rise."
 tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The game has started!","color":"yellow"}]
 # sfx
 execute as @a at @s run playsound entity.generic.explode player @s ~ ~ ~
