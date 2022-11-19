@@ -26,3 +26,11 @@
   - would be my first datapack to do this
   - allows for greater flexibility
   - [ ] make it christmas-themed ❄
+
+## from beta test
+- [x] add lava rising to #illegal blocks
+- [ ] add additional effects when in powder snow (you can survive to bedrock rn)
+- [ ] `player.height` is not currently being set
+- [ ] setup flow still says "lava rising"
+
+- [ ] replace nearby water with packed ice potentially
