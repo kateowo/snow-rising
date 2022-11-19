@@ -3,6 +3,10 @@
 
 execute if score period internal matches 0..2 run function fm:clock
 
+# slowball timer
+execute as @a[tag=slowball_invulnerable] run scoreboard players add @s slowball_time 1
+execute as @a[tag=slowball_invulnerable] if score @s slowball_time >= slowball_invulnerable global run function snowrising:system/extras/slowball/clear
+
 # periods
 ## starter period
 execute if score period internal matches 0 if score time_s internal >= starter_period global run function snowrising:system/period/grace

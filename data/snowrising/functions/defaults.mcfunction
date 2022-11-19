@@ -45,6 +45,8 @@ scoreboard players set sfx global 1
 ## apply slowness near the riser
 scoreboard players set slow_nearby_players global 1
 scoreboard players set slow_nearby_players_distance global 2
+## slowball
+scoreboard players set slowball_invulnerable global 20
 
 # clear illegal blocks
 ## stored in #snowrising:illegal

@@ -5,6 +5,15 @@ scoreboard objectives add global dummy
 scoreboard objectives add internal dummy
 scoreboard objectives add last_login dummy
 
+# track UUIDS
+scoreboard objectives add entity.UUID0 dummy
+scoreboard objectives add entity.UUID1 dummy
+scoreboard objectives add entity.UUID2 dummy
+scoreboard objectives add entity.UUID3 dummy
+
+# slowball timer
+scoreboard objectives add slowball_time dummy
+
 # open setup
 scoreboard objectives add setup trigger
 
