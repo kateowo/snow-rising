@@ -26,10 +26,11 @@
   - would be my first datapack to do this
   - allows for greater flexibility
   - [ ] make it christmas-themed ❄
+  - [ ] re-texture wither hearts to frozen hearts
 
 ## from beta test
 - [x] add lava rising to #illegal blocks
-- [ ] add additional effects when in powder snow (you can survive to bedrock rn)
+- [x] add additional effects when in powder snow (you can survive to bedrock rn)
 - [x] `player.height` is not currently being set
 - [ ] setup flow still says "lava rising"
 
