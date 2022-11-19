@@ -1,5 +1,7 @@
 {
     "values": [
+        "minecraft:grass_block",
+        "#minecraft:dirt",
         "minecraft:lava",
         "minecraft:water",
         "minecraft:kelp_plant",
