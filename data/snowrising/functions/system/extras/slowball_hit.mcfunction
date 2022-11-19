@@ -6,7 +6,7 @@
 advancement revoke @s only snowrising:slowball
 
 # announce
-tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"#9FFFFF","bold":true},{"text":"] ","color":"dark_gray"},{"text":"You got hit by a Slowball!","color":"#9FFFFF"}]
+title @s actionbar {"text":"You got hit by a Slowball!","color":"#9FFFFF"}
 # sfx
 playsound minecraft:block.powder_snow.hit player @s
 
