@@ -2,8 +2,10 @@
 ## run by player who got hit
 
 
-# revoke advancements
-advancement revoke @s only snowrising:slowball
+# give temp tag
+tag @s add slowball_invulnerable
+# schedule to remove
+scoreboard players reset @s slowball_time
 
 # announce
 title @s actionbar {"text":"You got hit by a Slowball!","color":"#9FFFFF"}

@@ -34,6 +34,9 @@ execute if score period internal matches 2 if score slow_nearby_players global m
 # apply effects if in powder snow
 execute if score period internal matches 2 as @a[gamemode=!spectator] at @s if block ~ ~ ~ powder_snow run effect give @s minecraft:wither 1 3 true
 
+# slowball
+execute as @a[tag=!slowball_invulnerable] at @s run function snowrising:system/extras/slowball/main
+
 # riser main
 execute if score period internal matches 2 as @e[tag=riser,limit=1] at @s run function snowrising:system/riser/main
 
