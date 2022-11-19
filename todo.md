@@ -33,4 +33,4 @@
 - [ ] `player.height` is not currently being set
 - [ ] setup flow still says "lava rising"
 
-- [ ] replace nearby water with packed ice potentially
+- [x] replace nearby water with packed ice potentially
