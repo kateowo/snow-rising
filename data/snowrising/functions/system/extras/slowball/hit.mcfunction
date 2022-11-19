@@ -17,4 +17,4 @@ particle minecraft:snowflake ~ ~1 ~ 0 0.2 0 0.07 50
 particle minecraft:block minecraft:ice ~ ~1 ~ 0 0.2 0 0.07 20
 
 # give effect
-effect give @s slowness 5 1 true
+effect give @s slowness 2 1 true
