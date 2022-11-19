@@ -10,7 +10,7 @@
   - [ ] replace 'lava'-esc sfx
   - [ ] use more snow(ier)/christmas colours and things
 
-- [ ] give player slowness if certain blocks away from snow?
+- [ ] give player slowness if certain blocks away from snow? (`slow_nearby_distance`)
   - ^ i don't think you can trigger the powdered snow effect manually
 
 ## QOL

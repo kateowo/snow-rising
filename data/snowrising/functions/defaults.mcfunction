@@ -41,12 +41,9 @@ scoreboard players set teams_count global 2
 # sfx
 scoreboard players set sfx global 1
 
-# performance
-## kill nearby falling blocks
-scoreboard players set kill_nearby_falling_blocks global 1
-scoreboard players set kill_nearby_distance global 2
-## drastic, kills ALL falling blocks
-scoreboard players set kill_all_falling_blocks global 0
+# extras
+## apply slowness near the riser
+scoreboard players set slow_nearby_distance global 2
 
 # clear illegal blocks
 ## stored in #snowrising:illegal
