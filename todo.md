@@ -36,6 +36,6 @@
 - [x] add lava rising to #illegal blocks
 - [x] add additional effects when in powder snow (you can survive to bedrock rn)
 - [x] `player.height` is not currently being set
-- [ ] setup flow still says "lava rising"
+- [x] setup flow still says "lava rising"
 
 - [x] replace nearby water with packed ice potentially

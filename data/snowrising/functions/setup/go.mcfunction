@@ -4,7 +4,7 @@
 
 # tellraw
 ## header
-tellraw @s ["",{"text":"\nLAVA RISING\n","color":"red","bold":true}]
+tellraw @s ["",{"text":"\nSNOW RISING\n","color":"#9FFFFF","bold":true}]
 ## intro
 tellraw @s ["",{"text":"Before the game begins, check your options and invite everyone to the game. Hover over titles for more information.\n"}]
 ## options
