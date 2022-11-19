@@ -36,7 +36,7 @@ execute if score period internal matches 2 as @a[gamemode=!spectator] at @s if b
 
 # slowball
 execute as @a[tag=!slowball_invulnerable] at @s run function snowrising:system/extras/slowball/main
-execute as @e[type=snowball] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 ice replace #snowrising:slowball_replace
+execute as @e[type=snowball] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 blue_ice replace #snowrising:slowball_replace
 execute as @e[type=snowball] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 campfire[lit=false] replace campfire[lit=true]
 
 # riser main

@@ -1,5 +1,13 @@
 {
     "values": [
+        "minecraft:lava",
+        "minecraft:water",
+        "minecraft:kelp_plant",
+        "minecraft:seagrass",
+        "minecraft:tall_seagrass",
+        "#minecraft:coral_plants",
+        "#minecraft:wall_corals",
+        "minecraft:sea_pickle",
         "#minecraft:logs",
         "#minecraft:planks",
         "minecraft:stone",
