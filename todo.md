@@ -1,7 +1,7 @@
 # todo
 
 ## main
-- [ ] copy over lava rising
+- [x] copy over lava rising
   - [ ] replace 'lava' references with 'powdered_snow'
   - [ ] replace 'lava'-esc sfx
   - [ ] use more snow(ier)/christmas colours and things
