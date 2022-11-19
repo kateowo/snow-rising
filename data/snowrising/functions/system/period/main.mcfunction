@@ -26,9 +26,9 @@ execute if score debug internal matches 77 run scoreboard players operation aliv
 execute if score debug internal matches 77 run scoreboard players operation alive_blue internal += 1 internal
 
 # announce
-title @a title ["",{"text":"LAVA RISING","color":"red","bold":true}]
-title @a subtitle "The lava has begun rising!"
-tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"red","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The lava has begun rising!","color":"yellow"}]
+title @a title ["",{"text":"SNOW RISING","color":"#9FFFFF","bold":true}]
+title @a subtitle "The snow has begun rising!"
+tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"red","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The snow has begun rising!","color":"yellow"}]
 # sfx
 execute as @a at @s run playsound block.note_block.pling player @s ~ ~ ~ 100 0.8
 execute as @a at @s run playsound entity.lightning_bolt.impact player @s ~ ~ ~

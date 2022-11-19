@@ -16,6 +16,6 @@ schedule function snowrising:system/riser/quadrants/3-bottomright 6t
 
 # announce
 ## pretty redundant, already displayed in the bossbar
-#title @a actionbar ["",{"text":"The lava has risen to Y: ","color":"red"},{"score":{"name":"riser_height","objective":"internal"},"color":"dark_red","bold":true}]
+#title @a actionbar ["",{"text":"The snow has risen to Y: ","color":"#9FFFFF"},{"score":{"name":"riser_height","objective":"internal"},"color":"aqua","bold":true}]
 # sfx
-execute if score sfx global matches 1.. as @a at @s run playsound block.lava.pop block @s
+execute if score sfx global matches 1.. as @a at @s run playsound block.powder_snow.place block @s

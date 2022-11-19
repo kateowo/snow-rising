@@ -11,12 +11,12 @@ scoreboard objectives add setup trigger
 # numbers
 scoreboard players set 1 internal 1
 
-# kill nearby falling blocks
-scoreboard objectives add falling_blocks dummy
-
 # bossbar
 bossbar add snowrising:main ""
 bossbar set snowrising:main color red
+
+# track player y
+scoreboard objectives add player.height dummy
 
 # track player death
 scoreboard objectives add player.death deathCount

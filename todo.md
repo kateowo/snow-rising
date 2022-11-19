@@ -6,12 +6,13 @@
 
 ## main
 - [x] copy over lava rising
-  - [ ] replace 'lava' references with 'powdered_snow'
-  - [ ] replace 'lava'-esc sfx
-  - [ ] use more snow(ier)/christmas colours and things
+  - [x] replace 'lava' references with 'powdered_snow'
+  - [x] replace 'lava'-esc sfx
+  - [x] use more snow(ier)/christmas colours and things
 
-- [ ] give player slowness if certain blocks away from snow? (`slow_nearby_distance`)
+- [x] give player slowness if certain blocks away from snow? (`slow_nearby_distance`)
   - ^ i don't think you can trigger the powdered snow effect manually
+  - will trial it out
 
 ## QOL
 - [ ] double food drops?
