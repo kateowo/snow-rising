@@ -21,6 +21,10 @@
 ## extras
 - [ ] add custom items (like water rising)
   - ensure these items are encouraged, went basically unused in water rising
+  - [ ] ![](https://res.plexion.dev/minecraft/item/snowball.png) slowball
+    - slows down any player it hits
+    - can make 'Snow' drop some crafting item for other items (like the prismarine shard in WR)
+    - combine ^ with iron or smth to get regular snowball (slowball)
 
 - [ ] add bundled resource pack?
   - would be my first datapack to do this
