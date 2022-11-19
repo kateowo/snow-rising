@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#minecraft:logs",
+        "#minecraft:planks",
+        "minecraft:stone",
+        "#minecraft:stone_ore_replaceables",
+        "#minecraft:wool",
+        "#minecraft:wool_carpets"
+    ]
+}
