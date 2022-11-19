@@ -32,7 +32,7 @@ execute if score legacy global matches 1.. if score rise_height_limit global mat
 # apply slowness near the riser
 execute if score period internal matches 2 if score slow_nearby_players global matches 1.. as @a[gamemode=!spectator] at @s run function snowrising:system/extras/nearby_players
 # apply effects if in powder snow
-execute if score period internal matches 2 as @a[gamemode=!spectator] at @s run effect give @s minecraft:wither 1 3 true
+execute if score period internal matches 2 as @a[gamemode=!spectator] at @s if block ~ ~ ~ powder_snow run effect give @s minecraft:wither 1 3 true
 
 # riser main
 execute if score period internal matches 2 as @e[tag=riser,limit=1] at @s run function snowrising:system/riser/main
