@@ -18,4 +18,4 @@ execute store result score @e[type=snowball,limit=1,distance=..4,sort=nearest] e
 
 # compare
 ## loop through each scoreboard
-execute if score @s entity.UUID0 = @e[type=snowball,limit=1,distance=..4,sort=nearest] entity.UUID0 if score @s entity.UUID1 = @e[type=snowball,limit=1,distance=..4,sort=nearest] entity.UUID1 if score @s entity.UUID2 = @e[type=snowball,limit=1,distance=..4,sort=nearest] entity.UUID2 if score @s entity.UUID3 = @e[type=snowball,limit=1,distance=..4,sort=nearest] entity.UUID3 run function snowrising:system/extras/slowball/hit
+execute unless score @s entity.UUID0 = @e[type=snowball,limit=1,distance=..4,sort=nearest] entity.UUID0 unless score @s entity.UUID1 = @e[type=snowball,limit=1,distance=..4,sort=nearest] entity.UUID1 unless score @s entity.UUID2 = @e[type=snowball,limit=1,distance=..4,sort=nearest] entity.UUID2 unless score @s entity.UUID3 = @e[type=snowball,limit=1,distance=..4,sort=nearest] entity.UUID3 run function snowrising:system/extras/slowball/hit
