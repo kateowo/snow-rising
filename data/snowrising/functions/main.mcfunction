@@ -34,10 +34,13 @@ execute if score period internal matches 2 if score slow_nearby_players global m
 # apply effects if in powder snow
 execute if score period internal matches 2 as @a[gamemode=!spectator] at @s if block ~ ~ ~ powder_snow run effect give @s minecraft:wither 1 3 true
 
-# slowball
+# custom items
+## slowball
 execute as @a[tag=!slowball_invulnerable] at @s run function snowrising:system/extras/slowball/main
 execute as @e[type=snowball] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 blue_ice replace #snowrising:slowball_replace
 execute as @e[type=snowball] at @s run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 campfire[lit=false] replace campfire[lit=true]
+## ice skates
+execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:leather_boots"},{Slot:100b}]}] at @s if block ~ ~-1 ~ minecraft:powder_snow run effect give @s speed 1 1 true
 
 # riser main
 execute if score period internal matches 2 as @e[tag=riser,limit=1] at @s run function snowrising:system/riser/main

@@ -25,7 +25,7 @@
     - slows down any player it hits
     - can make 'Snow' drop some crafting item for other items (like the prismarine shard in WR)
     - combine ^ with iron or smth to get regular snowball (slowball)
-  - [ ] ![](https://res.plexion.dev/minecraft/item/iron_boots.png) ice skates
+  - [x] ![](https://res.plexion.dev/minecraft/item/iron_boots.png) ice skates
     - work same as leather boots default
     - gives speed to allow you to "skate" across the snow
     - slowly lose durability?
