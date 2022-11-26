@@ -42,6 +42,10 @@ execute as @e[type=snowball] at @s run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 campfire[lit=fa
 ## ice skates
 execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:leather_boots"},{Slot:100b}]}] at @s if block ~ ~-1 ~ minecraft:powder_snow run effect give @s speed 1 1 true
 
+# add passive snow
+execute if score passive_snow global matches 1.. as @a at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.1 300
+execute if score passive_snow global matches 1.. as @a at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.4 200
+
 # riser main
 execute if score period internal matches 2 as @e[tag=riser,limit=1] at @s run function snowrising:system/riser/main
 
