@@ -28,7 +28,7 @@ execute if score debug internal matches 77 run scoreboard players operation aliv
 # announce
 title @a title ["",{"text":"SNOW RISING","color":"#9FFFFF","bold":true}]
 title @a subtitle "The snow has begun rising!"
-tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"red","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The snow has begun rising!","color":"yellow"}]
+tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"#9FFFFF","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The snow has begun rising!","color":"#9FFFFF"}]
 # sfx
 execute as @a at @s run playsound block.note_block.pling player @s ~ ~ ~ 100 0.8
 execute as @a at @s run playsound entity.lightning_bolt.impact player @s ~ ~ ~
