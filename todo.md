@@ -37,6 +37,10 @@
     - gives the player fast accelerating levitiation
     - requires them to build to negate fall damage or die
     - (therefore not *too* overpowered)
+  - [ ] ![](https://res.plexion.dev/minecraft/item/stick.png) candy canes
+    - replaces dried kelp
+    - dropped from loot table of grass (along with snow)
+    - gives temp speed + absorption
 
 - [ ] add bundled resource pack?
   - would be my first datapack to do this
