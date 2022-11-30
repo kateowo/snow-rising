@@ -28,6 +28,12 @@ tellraw @s ["",{"text":"Starter period \u0020 \u0020","hoverEvent":{"action":"sh
 # grace period
 tellraw @s ["",{"text":"Grace period \u0020 \u0020","hoverEvent":{"action":"show_text","contents":[{"text":"PvP is enabled along with respawning (min 20m)."}]}},{"text":" ","color":"white"},{"text":"-","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/grace_period/down"}},{"text":"  ","color":"white"},{"score":{"name":"grace_period","objective":"global"}},{"text":"  ","color":"dark_gray"},{"text":"+","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/grace_period/up"}},{"text":" ","color":"dark_gray"}]
 
+# passive snow
+## enabled
+execute if score passive_snow global matches 1.. run tellraw @s ["",{"text":"Passive snow \u0020 \u0020","hoverEvent":{"action":"show_text","contents":[{"text":"Show some nice passive snow particles, disable for better performance :("}]}},{"text":"[","color":"white"},{"text":"✔","color":"green","bold":true},{"text":"]","color":"white"},{"text":"  ","color":"dark_gray"},{"text":"X","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/passive_snow/off"}},{"text":" ","color":"dark_gray"}]
+## disabled
+execute unless score passive_snow global matches 1.. run tellraw @s ["",{"text":"Passive snow \u0020 \u0020","hoverEvent":{"action":"show_text","contents":[{"text":"Show some nice passive snow particles, disable for better performance :("}]}},{"text":" ","color":"dark_gray"},{"text":"✔","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/passive_snow/on"}},{"text":" ","color":"dark_gray"},{"text":" [","color":"white"},{"text":"X","color":"red","bold":true},{"text":"]","color":"white"}]
+
 # cut clean
 ## enabled
 execute if score cut_clean global matches 1.. run tellraw @s ["",{"text":"Cut Clean \u0020 \u0020","hoverEvent":{"action":"show_text","contents":[{"text":"Automatically smelts ores and cooks food."}]}},{"text":"[","color":"white"},{"text":"✔","color":"green","bold":true},{"text":"]","color":"white"},{"text":"  ","color":"dark_gray"},{"text":"X","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/cut_clean/off"}},{"text":" ","color":"dark_gray"}]
