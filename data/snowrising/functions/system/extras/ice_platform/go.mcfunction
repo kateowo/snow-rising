@@ -9,6 +9,9 @@ playsound minecraft:block.glass.place player @s
 # particles
 particle minecraft:block minecraft:packed_ice ~ ~1 ~ 0 0.2 0 0.07 10
 
+# effects
+effect give @s slow_falling 1 0 true
+
 # summon platform
 fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 packed_ice
 
