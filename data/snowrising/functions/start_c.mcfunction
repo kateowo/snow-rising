@@ -9,7 +9,7 @@ effect clear @a
 # announce
 title @a title ["",{"text":"SNOW RISING","color":"#9FFFFF","bold":true}]
 title @a subtitle "Gather resources before the snow begins to rise."
-tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The game has started!","color":"yellow"}]
+tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"→","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"The game has started!","color":"yellow"}]
 # sfx
 execute as @a at @s run playsound entity.generic.explode player @s ~ ~ ~
 execute as @a at @s run playsound block.note_block.pling player @s ~ ~ ~
