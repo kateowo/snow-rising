@@ -15,6 +15,7 @@ scoreboard players set patch_grindstone_exploit global 1
 worldborder set 10
 effect clear @a
 gamemode adventure @a[team=!spectator]
+gamerule doWeatherCycle false
 
 
 # periods
