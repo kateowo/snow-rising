@@ -52,7 +52,7 @@ scoreboard players set slow_nearby_players_distance global 2
 ## slowball
 scoreboard players set slowball_invulnerable global 50
 ## ice platform
-scoreboard players set ice_platform_lifespan global 50
+scoreboard players set ice_platform_lifespan global 60
 
 # clear illegal blocks
 ## stored in #snowrising:illegal
