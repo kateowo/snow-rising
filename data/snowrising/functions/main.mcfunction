@@ -41,6 +41,8 @@ execute as @e[type=snowball] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 blue_ice replac
 execute as @e[type=snowball] at @s run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 campfire[lit=false] replace campfire[lit=true]
 ## ice skates
 execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:leather_boots"},{Slot:100b}]}] at @s if block ~ ~-1 ~ minecraft:powder_snow run effect give @s speed 1 1 true
+## candy canes
+execute as @a if score @s item.candy_cane matches 1.. at @s run function snowrising:system/extras/candy_cane/go
 
 # add passive snow
 execute if score passive_snow global matches 1.. as @a at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.1 300

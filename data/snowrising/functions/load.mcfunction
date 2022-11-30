@@ -14,6 +14,9 @@ scoreboard objectives add entity.UUID3 dummy
 # slowball timer
 scoreboard objectives add slowball_time dummy
 
+# candy canes
+scoreboard objectives add item.candy_cane minecraft.used:minecraft.dried_kelp
+
 # open setup
 scoreboard objectives add setup trigger
 
