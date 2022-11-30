@@ -30,16 +30,18 @@
     - [x] gives speed to allow you to "skate" across the snow
     - [ ] slowly lose durability?
   - [ ] ![](https://res.plexion.dev/minecraft/item/ice.png) ice platform
-    - [ ] use to create a small ice platform below you
+    - [x] use to create a small ice platform below you
     - only lasts for a short amount of time
     - duel tnt style
+    - [x] crafting recipe
+    - [ ] refer to **todo** in `system/ice_platform/go`!!!!
   - [ ] ![](https://res.plexion.dev/minecraft/item/splash_potion.png) quick levitiation
     - [ ] gives the player fast accelerating levitiation
     - requires them to build to negate fall damage or die
     - (therefore not *too* overpowered)
-  - [ ] ![](https://res.plexion.dev/minecraft/item/stick.png) candy canes
+  - [x] ![](https://res.plexion.dev/minecraft/item/stick.png) candy canes
     - [x] replaces dried kelp
-    - [ ] dropped from loot table of grass (along with snow)
+    - [x] dropped from loot table of grass (along with snow)
     - [x] gives temp speed + absorption
 
 - [ ] add bundled resource pack?
