@@ -5,8 +5,7 @@
 # announce
 title @s actionbar {"text":"You used an Ice Platform!","color":"#9FFFFF"}
 # sfx
-playsound minecraft:block.glass.fall player @s
-playsound minecraft:block.snow.place player @s
+playsound minecraft:block.glass.place player @s
 # particles
 particle minecraft:block minecraft:packed_ice ~ ~1 ~ 0 0.2 0 0.07 10
 
