@@ -48,8 +48,8 @@ execute if entity @e[type=eye_of_ender] run kill @e[type=eye_of_ender]
 execute as @a if score @s item.ice_platform matches 1.. at @s run function snowrising:system/extras/ice_platform/go
 
 # add passive snow
-execute if score passive_snow global matches 1.. as @a[gamemode=!spectator] at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.08 300
-execute if score passive_snow global matches 1.. as @a[gamemode=!spectator] at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.2 200
+execute if score passive_snow global matches 1.. as @a[gamemode=!spectator] at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.08 160
+execute if score passive_snow global matches 1.. as @a[gamemode=!spectator] at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.2 100
 
 # riser main
 execute if score period internal matches 2 as @e[tag=riser,limit=1] at @s run function snowrising:system/riser/main
