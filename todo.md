@@ -29,14 +29,14 @@
     - work same as leather boots default
     - [x] gives speed to allow you to "skate" across the snow
     - [ ] slowly lose durability?
-  - [ ] ![](https://res.plexion.dev/minecraft/item/ice.png) ice platform
+  - [x] ![](https://res.plexion.dev/minecraft/item/ice.png) ice platform
     - [x] use to create a small ice platform below you
     - only lasts for a short amount of time
     - duel tnt style
     - [x] crafting recipe
     - [x] refer to **todo** in `system/ice_platform/go`!!!!
-  - [ ] ![](https://res.plexion.dev/minecraft/item/splash_potion.png) quick levitiation
-    - [ ] gives the player fast accelerating levitiation
+  - [ ] ![](https://res.plexion.dev/minecraft/item/splash_potion.png) quick levitation
+    - [ ] gives the player fast accelerating levitation
     - requires them to build to negate fall damage or die
     - (therefore not *too* overpowered)
   - [x] ![](https://res.plexion.dev/minecraft/item/stick.png) candy canes
