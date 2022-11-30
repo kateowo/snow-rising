@@ -45,8 +45,8 @@ execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:leather_boots"},{Slot:
 execute as @a if score @s item.candy_cane matches 1.. at @s run function snowrising:system/extras/candy_cane/go
 
 # add passive snow
-execute if score passive_snow global matches 1.. as @a at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.1 300
-execute if score passive_snow global matches 1.. as @a at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.4 200
+execute if score passive_snow global matches 1.. as @a[gamemode=!spectator] at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.1 300
+execute if score passive_snow global matches 1.. as @a[gamemode=!spectator] at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.4 200
 
 # riser main
 execute if score period internal matches 2 as @e[tag=riser,limit=1] at @s run function snowrising:system/riser/main
