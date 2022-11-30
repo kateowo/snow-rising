@@ -19,6 +19,7 @@ scoreboard objectives add item.candy_cane minecraft.used:minecraft.dried_kelp
 
 # ice platform
 scoreboard objectives add item.ice_platform minecraft.used:minecraft.ender_eye
+scoreboard objectives add ice_platform_time dummy
 
 # open setup
 scoreboard objectives add setup trigger

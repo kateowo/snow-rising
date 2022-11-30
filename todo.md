@@ -34,7 +34,7 @@
     - only lasts for a short amount of time
     - duel tnt style
     - [x] crafting recipe
-    - [ ] refer to **todo** in `system/ice_platform/go`!!!!
+    - [x] refer to **todo** in `system/ice_platform/go`!!!!
   - [ ] ![](https://res.plexion.dev/minecraft/item/splash_potion.png) quick levitiation
     - [ ] gives the player fast accelerating levitiation
     - requires them to build to negate fall damage or die
