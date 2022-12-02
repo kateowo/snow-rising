@@ -49,7 +49,7 @@
   - allows for greater flexibility
   - [x] style custom items (+naming)
   - [x] make it christmas-themed ❄
-  - [ ] re-texture wither hearts to frozen hearts
+  - [x] re-texture wither hearts to frozen hearts
 
 ## from beta test
 - [x] add lava rising to #illegal blocks
