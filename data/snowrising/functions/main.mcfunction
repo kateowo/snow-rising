@@ -46,6 +46,8 @@ execute as @a if score @s item.candy_cane matches 1.. at @s run function snowris
 ## ice platform
 execute if entity @e[type=eye_of_ender] run kill @e[type=eye_of_ender]
 execute as @a if score @s item.ice_platform matches 1.. at @s run function snowrising:system/extras/ice_platform/go
+## quick levitation
+execute as @a if score @s item.levitation matches 1.. at @s run function snowrising:system/extras/levitation/go
 
 # add passive snow
 execute if score passive_snow global matches 1.. as @a[gamemode=!spectator] at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.08 160

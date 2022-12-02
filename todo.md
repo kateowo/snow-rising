@@ -35,8 +35,8 @@
     - duel tnt style
     - [x] crafting recipe
     - [x] refer to **todo** in `system/ice_platform/go`!!!!
-  - [ ] ![](https://res.plexion.dev/minecraft/item/splash_potion.png) quick levitation
-    - [ ] gives the player fast accelerating levitation
+  - [x] ![](https://res.plexion.dev/minecraft/item/splash_potion.png) quick levitation
+    - [x] gives the player fast accelerating levitation
     - requires them to build to negate fall damage or die
     - (therefore not *too* overpowered)
   - [x] ![](https://res.plexion.dev/minecraft/item/stick.png) candy canes

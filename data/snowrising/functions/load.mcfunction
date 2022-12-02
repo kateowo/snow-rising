@@ -21,6 +21,9 @@ scoreboard objectives add item.candy_cane minecraft.used:minecraft.dried_kelp
 scoreboard objectives add item.ice_platform minecraft.used:minecraft.ender_eye
 scoreboard objectives add ice_platform_time dummy
 
+# quick levitation
+scoreboard objectives add item.levitation minecraft.used:minecraft.carrot_on_a_stick
+
 # open setup
 scoreboard objectives add setup trigger
 
