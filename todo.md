@@ -44,10 +44,11 @@
     - [x] dropped from loot table of grass (along with snow)
     - [x] gives temp speed + absorption
 
-- [ ] add bundled resource pack?
+- [x] add bundled resource pack?
   - would be my first datapack to do this
   - allows for greater flexibility
-  - [ ] make it christmas-themed ❄
+  - [x] style custom items (+naming)
+  - [x] make it christmas-themed ❄
   - [ ] re-texture wither hearts to frozen hearts
 
 ## from beta test
