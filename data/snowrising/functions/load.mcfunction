@@ -18,7 +18,7 @@ scoreboard objectives add slowball_time dummy
 scoreboard objectives add item.candy_cane minecraft.used:minecraft.dried_kelp
 
 # ice platform
-scoreboard objectives add item.ice_platform minecraft.used:minecraft.ender_eye
+scoreboard objectives add item.ice_platform minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add ice_platform_time dummy
 
 # quick levitation

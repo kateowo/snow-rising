@@ -18,4 +18,7 @@ fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 packed_ice
 # summon marker
 function snowrising:system/extras/ice_platform/marker
 
+# clear item
+clear @s minecraft:warped_fungus_on_a_stick 1
+
 scoreboard players reset @s item.ice_platform

@@ -60,7 +60,7 @@
 - [x] replace nearby water with packed ice potentially
 
 ## from beta test 2
-- [ ] ensure all items have custom names (ice skates etc.)
+- [x] ensure all items have custom names (ice skates etc.)
 - [x] automatically unlock custom recipes
 - [ ] potentially increase speed boost from candy cane
 - [ ] decrease chances of candy canes (+maybe snowballs) (especially considering length of grace period + potential for farming)
