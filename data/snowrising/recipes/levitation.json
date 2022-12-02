@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "minecraft:white_dye"
+      "item": "minecraft:gold_ingot"
     },
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:snowball"
     }
   },
   "pattern": [
-    " X ",
-    "X#X",
-    " X "
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
     "count": 1,
-    "item": "minecraft:snowball"
+    "item": "minecraft:carrot_on_a_stick"
   }
 }
