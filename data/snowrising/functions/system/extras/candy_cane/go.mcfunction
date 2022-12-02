@@ -11,7 +11,7 @@ particle minecraft:block minecraft:white_concrete ~ ~1 ~ 0 0.2 0 0.07 10
 particle minecraft:block minecraft:red_concrete ~ ~1 ~ 0 0.2 0 0.07 10
 
 # give effect
-effect give @s speed 4 0 true
-effect give @s absorption 4 1 true
+effect give @s speed 8 1 true
+effect give @s absorption 8 1 true
 
 scoreboard players reset @s item.candy_cane

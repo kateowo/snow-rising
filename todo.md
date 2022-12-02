@@ -62,7 +62,7 @@
 ## from beta test 2
 - [x] ensure all items have custom names (ice skates etc.)
 - [x] automatically unlock custom recipes
-- [ ] potentially increase speed boost from candy cane
+- [x] potentially increase speed boost from candy cane
 - [ ] decrease chances of candy canes (+maybe snowballs) (especially considering length of grace period + potential for farming)
-- [ ] increase length of candy cane effects
-- [ ] ice platform does not activate (due to `stronghold` not being generated)
+- [x] increase length of candy cane effects
+- [x] ice platform does not activate (due to `stronghold` not being generated)
