@@ -71,5 +71,5 @@
 - [ ] trial replacing blocks on riser level to ensure snow is not destroyed
   - with both player hands + liquids
 
-- [ ] deaths are VERY broken
+- [x] deaths are VERY broken
   - finally got something re-producable, will be fixed in lava rising when found
