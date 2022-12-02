@@ -19,7 +19,7 @@
 - [ ] add some sort of snow food?
 
 ## extras
-- [ ] add custom items (like water rising)
+- [x] add custom items (like water rising)
   - ensure these items are encouraged, went basically unused in water rising
   - [x] ![](https://res.plexion.dev/minecraft/item/snowball.png) slowball
     - [x] slows down any player it hits
