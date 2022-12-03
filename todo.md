@@ -80,5 +80,4 @@
 
 - [x] increase chance of snowball drop
 
-- [ ] change win colours to match main accent colour?
 - [ ] final test before prod
