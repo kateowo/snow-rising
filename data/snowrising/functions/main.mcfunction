@@ -12,8 +12,7 @@ execute as @a if score @s setup matches 1.. run scoreboard players reset @s setu
 
 # world
 bossbar set snowrising:main players @a
-recipe give @a snowrising:ice_platform
-recipe give @a snowrising:levitation
+execute as @a[tag=!player_defaults] run function snowrising:system/extras/player_defaults
 
 # ensure player is not stuck
 execute if score period internal matches -1 as @a at @s unless block ~ ~1 ~ #snowrising:safe run tp @s ~ ~5 ~

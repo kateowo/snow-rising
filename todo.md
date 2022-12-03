@@ -74,7 +74,7 @@
 - [x] deaths are VERY broken
   - finally got something re-producable, will be fixed in lava rising when found
 
-- [ ] create `player_defaults` tag
+- [x] create `player_defaults` tag
   - used to apply defaults (eg. recipes)
   - given tag after to ensure they don't run commands again
 
