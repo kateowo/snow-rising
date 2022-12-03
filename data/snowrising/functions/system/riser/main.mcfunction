@@ -10,6 +10,12 @@ execute if score clear_illegal_blocks global matches 1.. run fill 80 ~ -80 0 ~3 
 execute if score clear_illegal_blocks global matches 1.. run fill -80 ~ 80 0 ~3 ~ packed_ice replace #snowrising:illegal
 execute if score clear_illegal_blocks global matches 1.. run fill 80 ~ 80 0 ~3 ~ packed_ice replace #snowrising:illegal
 
+# ensure blocks are not replaced
+execute if score clear_illegal_blocks global matches 1.. run fill -80 ~ -80 0 ~ ~ powder_snow replace air
+execute if score clear_illegal_blocks global matches 1.. run fill 80 ~ -80 0 ~ ~ powder_snow replace air
+execute if score clear_illegal_blocks global matches 1.. run fill -80 ~ 80 0 ~ ~ powder_snow replace air
+execute if score clear_illegal_blocks global matches 1.. run fill 80 ~ 80 0 ~ ~ powder_snow replace air
+
 # store position
 ## used for calculations involving current height
 execute store result score riser_height internal run data get entity @s Pos[1]

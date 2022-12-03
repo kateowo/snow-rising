@@ -68,7 +68,7 @@
 - [x] ice platform does not activate (due to `stronghold` not being generated)
 
 ## final todo
-- [ ] trial replacing blocks on riser level to ensure snow is not destroyed
+- [x] trial replacing blocks on riser level to ensure snow is not destroyed
   - with both player hands + liquids
 
 - [x] deaths are VERY broken
