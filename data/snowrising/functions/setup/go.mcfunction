@@ -52,6 +52,9 @@ execute if score legacy global matches 1.. run tellraw @s ["",{"text":"Legacy mo
 ## disabled
 execute unless score legacy global matches 1.. run tellraw @s ["",{"text":"Legacy mode (pre-1.18) \u0020 \u0020","hoverEvent":{"action":"show_text","contents":[{"text":"Reverts the height limit and spawn height down to pre-1.18 values."}]}},{"text":" ","color":"dark_gray"},{"text":"✔","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/legacy/on"}},{"text":" ","color":"dark_gray"},{"text":" [","color":"white"},{"text":"X","color":"red","bold":true},{"text":"]","color":"white"}]
 
+## notice
+tellraw @s ["",{"text":"\n⚠️ For performance improvements, disable passive snow.\n","color":"gold"}]
+
 ## footer
 tellraw @s ["",{"text":"\nOnce you're ready, run "},{"text":"/function snowrising:start","color":"yellow","underlined":true,"clickEvent":{"action":"run_command","value":"/function snowrising:start"}},{"text":" and let the games begin!\n"}]
 
