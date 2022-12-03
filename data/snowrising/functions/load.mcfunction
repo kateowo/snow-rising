@@ -25,10 +25,10 @@ scoreboard objectives add ice_platform_time dummy
 scoreboard objectives add item.levitation minecraft.used:minecraft.carrot_on_a_stick
 
 # open setup
-scoreboard objectives add setup trigger
+scoreboard objectives add setup trigger "Open setup"
 
 # toggle snow
-scoreboard objectives add snow trigger
+scoreboard objectives add snow trigger "Toggle passive snow"
 
 # numbers
 scoreboard players set 1 internal 1
