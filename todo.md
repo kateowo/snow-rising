@@ -80,4 +80,13 @@
 
 - [x] increase chance of snowball drop
 
-- [ ] final test before prod
+## from beta test 3 (final test before prod)
+- [ ] add tall grass loot tabel to match grass
+- [ ] decrease amount of candy canes
+- [ ] decrease amount of seeds
+- [ ] slightly increase amount of snowballs
+- [ ] maybe add a bit of strength to candy canes to encourage use in pvp?
+- [ ] decrease candy cane effect length to 6s (is 8 currently?)
+- [ ] increase levitation amount slightly
+
+other than that, custom items feel perfect. already have certain strats planned.
