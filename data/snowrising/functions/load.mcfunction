@@ -27,6 +27,9 @@ scoreboard objectives add item.levitation minecraft.used:minecraft.carrot_on_a_s
 # open setup
 scoreboard objectives add setup trigger
 
+# toggle snow
+scoreboard objectives add snow trigger
+
 # numbers
 scoreboard players set 1 internal 1
 

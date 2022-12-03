@@ -30,9 +30,9 @@ tellraw @s ["",{"text":"Grace period \u0020 \u0020","hoverEvent":{"action":"show
 
 # passive snow
 ## enabled
-execute if score passive_snow global matches 1.. run tellraw @s ["",{"text":"Passive snow \u0020 \u0020","hoverEvent":{"action":"show_text","contents":[{"text":"Show some nice passive snow particles, disable for better performance :("}]}},{"text":"[","color":"white"},{"text":"✔","color":"green","bold":true},{"text":"]","color":"white"},{"text":"  ","color":"dark_gray"},{"text":"X","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/passive_snow/off"}},{"text":" ","color":"dark_gray"}]
+execute if score passive_snow global matches 1.. run tellraw @s ["",{"text":"Passive snow \u0020 \u0020","hoverEvent":{"action":"show_text","contents":[{"text":"Show some nice passive snow particles, disable globally for better performance :("}]}},{"text":"[","color":"white"},{"text":"✔","color":"green","bold":true},{"text":"]","color":"white"},{"text":"  ","color":"dark_gray"},{"text":"X","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/passive_snow/off"}},{"text":" ","color":"dark_gray"}]
 ## disabled
-execute unless score passive_snow global matches 1.. run tellraw @s ["",{"text":"Passive snow \u0020 \u0020","hoverEvent":{"action":"show_text","contents":[{"text":"Show some nice passive snow particles, disable for better performance :("}]}},{"text":" ","color":"dark_gray"},{"text":"✔","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/passive_snow/on"}},{"text":" ","color":"dark_gray"},{"text":" [","color":"white"},{"text":"X","color":"red","bold":true},{"text":"]","color":"white"}]
+execute unless score passive_snow global matches 1.. run tellraw @s ["",{"text":"Passive snow \u0020 \u0020","hoverEvent":{"action":"show_text","contents":[{"text":"Show some nice passive snow particles, disable globally for better performance :("}]}},{"text":" ","color":"dark_gray"},{"text":"✔","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function snowrising:setup/passive_snow/on"}},{"text":" ","color":"dark_gray"},{"text":" [","color":"white"},{"text":"X","color":"red","bold":true},{"text":"]","color":"white"}]
 
 # cut clean
 ## enabled
