@@ -87,6 +87,6 @@
 - [x] slightly increase amount of snowballs
 - [x] maybe add a bit of strength to candy canes to encourage use in pvp?
 - [x] decrease candy cane effect length to 6s (is 8 currently?)
-- [ ] increase levitation amount slightly
+- [x] increase levitation amount slightly
 
 other than that, custom items feel perfect. already have certain strats planned.
