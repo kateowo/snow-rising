@@ -78,4 +78,4 @@
   - used to apply defaults (eg. recipes)
   - given tag after to ensure they don't run commands again
 
-- [ ] increase chance of snowball drop
+- [x] increase chance of snowball drop
