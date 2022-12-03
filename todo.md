@@ -16,7 +16,7 @@
 
 ## QOL
 - [ ] double food drops?
-- [ ] add some sort of snow food?
+- [x] add some sort of snow food?
 
 ## extras
 - [x] add custom items (like water rising)
