@@ -81,10 +81,10 @@
 - [x] increase chance of snowball drop
 
 ## from beta test 3 (final test before prod)
-- [ ] add tall grass loot tabel to match grass
-- [ ] decrease amount of candy canes
-- [ ] decrease amount of seeds
-- [ ] slightly increase amount of snowballs
+- [x] add tall grass loot table to match grass
+- [x] decrease amount of candy canes
+- [x] decrease amount of seeds
+- [x] slightly increase amount of snowballs
 - [ ] maybe add a bit of strength to candy canes to encourage use in pvp?
 - [ ] decrease candy cane effect length to 6s (is 8 currently?)
 - [ ] increase levitation amount slightly
