@@ -4,4 +4,4 @@
 
 tag @s remove disable_snow
 
-scoreboard players reset @s snow
+scoreboard players reset @a snow
