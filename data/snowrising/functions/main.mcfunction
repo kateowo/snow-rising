@@ -55,8 +55,8 @@ execute if score passive_snow global matches 1.. as @a[gamemode=!spectator,tag=!
 execute if score passive_snow global matches 1.. as @a[gamemode=!spectator,tag=!exclude_passive_snow] at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.2 60
 ## /trigger snow
 scoreboard players enable @a snow
-execute as @a[tag=!disable_snow] if score @s snow matches 1.. run function snowrising:system/extras/toggle_snow/enable
-execute as @a[tag=disable_snow] if score @s snow matches 1.. run function snowrising:system/extras/toggle_snow/disable
+execute as @a[tag=!disable_snow] if score @s snow matches 1.. run function snowrising:system/extras/toggle_snow/go
+execute as @a if score @s snow matches 1.. run scoreboard players reset @s snow
 
 # riser main
 execute if score period internal matches 2 as @e[tag=riser,limit=1] at @s run function snowrising:system/riser/main

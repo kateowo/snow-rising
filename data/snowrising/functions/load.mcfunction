@@ -29,6 +29,7 @@ scoreboard objectives add setup trigger "Open setup"
 
 # toggle snow
 scoreboard objectives add snow trigger "Toggle passive snow"
+scoreboard objectives add snow_temp dummy
 
 # numbers
 scoreboard players set 1 internal 1
