@@ -10,7 +10,7 @@ playsound minecraft:block.glass.break player @s
 particle minecraft:block minecraft:packed_ice ~ ~1 ~ 0 0.2 0 0.07 10
 
 # effects
-effect give @s levitation 3 7 true
+effect give @s levitation 3 4 true
 
 # clear item
 clear @s minecraft:carrot_on_a_stick 1
