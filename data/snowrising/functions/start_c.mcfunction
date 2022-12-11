@@ -48,8 +48,16 @@ execute if score grace_period global matches 1700..1799 run worldborder set 1888
 execute if score grace_period global matches 1800..1899 run worldborder set 2000 5
 ## grace period is between 1900 and 1999
 execute if score grace_period global matches 1900..1999 run worldborder set 2111 5
-## grace period is above 2000
-execute if score grace_period global matches 2000.. run worldborder set 2222 5
+## grace period is between 2000 and 2099
+execute if score grace_period global matches 2000..2099 run worldborder set 2222 5
+## grace period is between 2100 and 2199
+execute if score grace_period global matches 2100..2199 run worldborder set 2333 5
+## grace period is between 2200 and 2299
+execute if score grace_period global matches 2200..2299 run worldborder set 2444 5
+## grace period is between 2300 and 2399
+execute if score grace_period global matches 2300..2399 run worldborder set 2555 5
+## grace period is above 2400
+execute if score grace_period global matches 2400.. run worldborder set 2666 5
 
 # set period
 scoreboard players set period internal 0
