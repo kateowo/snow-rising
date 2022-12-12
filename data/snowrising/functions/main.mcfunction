@@ -6,9 +6,10 @@ execute as @a unless score setup internal matches 1.. run function snowrising:se
 execute if score period internal matches -1 run title @a actionbar ["",{"text":"Configure the game using ","color":"yellow"},{"text":"/trigger setup","color":"gold"},{"text":" before the games begin!","color":"yellow"}]
 ## /trigger setup
 scoreboard players enable @a setup
-execute if score period internal matches -1 as @a if score @s setup matches 1.. run function snowrising:setup/go
-execute unless score period internal matches -1 as @a if score @s setup matches 1.. run tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"X","color":"red","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Setup flow can only be opened before the game has started.","color":"red"}]
-execute as @a if score @s setup matches 1.. run scoreboard players reset @s setup
+execute if score period internal matches -1 as @a[scores={setup=1..}] run function snowrising:setup/go
+execute unless score period internal matches -1 as @a[scores={setup=1..}] run tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"X","color":"red","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Setup flow can only be opened before the game has started.","color":"red"}]
+## reset
+scoreboard players reset @a setup
 
 # world
 bossbar set snowrising:main players @a
@@ -41,14 +42,14 @@ execute as @a[tag=!slowball_invulnerable] at @s run function snowrising:system/e
 execute as @e[type=snowball] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 blue_ice replace #snowrising:slowball_replace
 execute as @e[type=snowball] at @s run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 campfire[lit=false] replace campfire[lit=true]
 ## ice skates
-execute as @a if entity @s[nbt={Inventory:[{id:"minecraft:leather_boots"},{Slot:100b}]}] at @s if block ~ ~-1 ~ minecraft:powder_snow run effect give @s speed 1 1 true
+execute as @a[nbt={Inventory:[{id:"minecraft:leather_boots"},{Slot:100b}]}] at @s if block ~ ~-1 ~ minecraft:powder_snow run effect give @s speed 1 1 true
 ## candy canes
-execute as @a if score @s item.candy_cane matches 1.. at @s run function snowrising:system/extras/candy_cane/go
+execute as @a[scores={item.candy_cane=1..}] at @s run function snowrising:system/extras/candy_cane/go
 ## ice platform
 execute if entity @e[type=eye_of_ender] run kill @e[type=eye_of_ender]
-execute as @a if score @s item.ice_platform matches 1.. at @s run function snowrising:system/extras/ice_platform/go
+execute as @a[scores={item.ice_platform=1..}] at @s run function snowrising:system/extras/ice_platform/go
 ## quick levitation
-execute as @a if score @s item.levitation matches 1.. at @s run function snowrising:system/extras/levitation/go
+execute as @a[scores={item.levitation=1..}] at @s run function snowrising:system/extras/levitation/go
 
 # add passive snow
 execute if score passive_snow global matches 1.. as @a[gamemode=!spectator,tag=!exclude_passive_snow] at @s run particle minecraft:white_ash ~ ~ ~ 15 5 15 0.08 120
@@ -66,11 +67,11 @@ function snowrising:time
 
 # death checks
 ## solos
-execute if score period internal matches 2 unless score teams global matches 1.. as @a at @s if score @s player.death matches 1.. run function snowrising:system/death/solos/go
+execute if score period internal matches 2 unless score teams global matches 1.. as @a[scores={player.death=1..}] at @s run function snowrising:system/death/solos/go
 ## teams
-execute if score period internal matches 2 if score teams global matches 1.. as @a[team=red] at @s if score @s player.death matches 1.. run function snowrising:system/death/teams/go_red
-execute if score period internal matches 2 if score teams global matches 1.. as @a[team=blue] at @s if score @s player.death matches 1.. run function snowrising:system/death/teams/go_blue
-execute if score period internal matches 2 if score teams global matches 1.. as @a[team=green] at @s if score @s player.death matches 1.. run function snowrising:system/death/teams/go_green
+execute if score period internal matches 2 if score teams global matches 1.. as @a[team=red,scores={player.death=1..}] at @s run function snowrising:system/death/teams/go_red
+execute if score period internal matches 2 if score teams global matches 1.. as @a[team=blue,scores={player.death=1..}] at @s run function snowrising:system/death/teams/go_blue
+execute if score period internal matches 2 if score teams global matches 1.. as @a[team=green,scores={player.death=1..}] at @s run function snowrising:system/death/teams/go_green
 ## reset
 scoreboard players reset @a player.death
 
