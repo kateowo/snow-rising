@@ -28,8 +28,8 @@ scoreboard objectives add item.levitation minecraft.used:minecraft.carrot_on_a_s
 scoreboard objectives add setup trigger "Open setup"
 
 # toggle snow
-scoreboard objectives add snow trigger "Toggle passive snow"
-scoreboard objectives add snow_temp dummy
+#scoreboard objectives add snow trigger "Toggle passive snow"
+#scoreboard objectives add snow_temp dummy
 
 # numbers
 scoreboard players set 1 internal 1
