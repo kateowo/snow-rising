@@ -36,6 +36,13 @@ execute if score period internal matches 2 if score slow_nearby_players global m
 # apply effects if in powder snow
 execute if score period internal matches 2 as @a[gamemode=!spectator] at @s if block ~ ~ ~ powder_snow run effect give @s minecraft:wither 1 3 true
 
+# track border
+execute store result score border_size internal run worldborder get
+scoreboard players operation border_size internal /= 2 internal
+scoreboard players operation border_size internal -= 1 internal
+# detect if near border
+execute unless score period internal matches -1 unless score period internal matches 3 as @a at @s run function snowrising:system/border/player
+
 # custom items
 ## slowball
 execute as @a[tag=!slowball_invulnerable] at @s run function snowrising:system/extras/slowball/main

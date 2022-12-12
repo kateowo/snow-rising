@@ -13,6 +13,7 @@ scoreboard players set patch_grindstone_exploit global 1
 
 # world
 worldborder set 10
+worldborder center 0 0
 effect clear @a
 gamemode adventure @a[team=!spectator]
 gamerule doWeatherCycle false
@@ -34,6 +35,10 @@ scoreboard players set rise_height_limit global 316
 ## interval between rising
 ## lower than before due to starting at -64
 scoreboard players set rise_ticks global 80
+
+# track border distance
+scoreboard players set border_distance global 15
+scoreboard players set base_world_height internal 70
 
 # teams
 scoreboard players set teams global 0

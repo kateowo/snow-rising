@@ -33,12 +33,23 @@ scoreboard objectives add snow_temp dummy
 
 # numbers
 scoreboard players set 1 internal 1
+scoreboard players set 2 internal 2
 
 # bossbar
 bossbar add snowrising:main ""
 bossbar set snowrising:main color red
 
+# track player location
+scoreboard objectives add player.near_border dummy
+## x
+scoreboard objectives add player.x dummy
+## y
+scoreboard objectives add player.y dummy
+## z
+scoreboard objectives add player.z dummy
+
 # track player y
+## used for nearby_players calc
 scoreboard objectives add player.height dummy
 
 # track player death
