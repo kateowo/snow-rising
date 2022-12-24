@@ -1,2 +1,2 @@
-execute if score rise_height_limit global matches 2.. run scoreboard players remove rise_height_limit global 1
+execute if score rise_height_limit global matches 70.. run scoreboard players remove rise_height_limit global 10
 function snowrising:setup/sfx/off
